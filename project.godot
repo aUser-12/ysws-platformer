@@ -14,6 +14,11 @@ config/name="Platformer-ysws"
 run/main_scene="uid://i6casfi6l8r6"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
+[autoload]
+
+EventController="*res://Scripts/event_controller.gd"
+GameController="*res://Scripts/game_control.gd"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
